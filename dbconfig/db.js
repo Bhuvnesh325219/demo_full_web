@@ -3,8 +3,8 @@ const mongoose= require('mongoose')
 
 
 //const mongoURI='mongodb://127.0.0.1:27017/mediatestdatabase';
-//const mongoURI = 'mongodb+srv://user:userpass@cluster0.srjlthb.mongodb.net/test';
-const mongoURI = process.env.DATABASE_URL
+const mongoURI = 'mongodb+srv://user:userpass@cluster0.srjlthb.mongodb.net/test';
+//const mongoURI = process.env.DATABASE_URL;
 
 const connectToMongo=async()=>{
      mongoose.connect(mongoURI,()=>{
