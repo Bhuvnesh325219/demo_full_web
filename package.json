@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +19,7 @@
     "mongodb": "^5.3.0",
     "mongoose": "^6.10.5",
     "nodemon": "^2.0.22",
-    "razorpay": "^2.8.6"
+    "razorpay": "^2.8.6",
+    "yarn": "^1.22.19"
   }
 }
